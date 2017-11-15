@@ -6,7 +6,7 @@
     "description": "In December, developers, designers, and artists formed nine teams and hacked for twelve hours to create HTML5 games. The Frozen JS engine was available to apply web development skills to speed up game development and the Iced Dev team was on-site to help. Standout entries included Firefly fan art, animated photographed crayon drawings, and 8-bit baby kicking.",
     "sponsors": {
       "major": [
-        { "name": "Iced Dev", "url": "http://www.iceddev.com", "logo": "/html5games_winter2012/sponsors/iceddev.png" },
+        { "name": "Iced Dev", "url": "http://iceddev.com", "logo": "/html5games_winter2012/sponsors/iceddev.png" },
         { "name": "EnyoJS", "url": "http://enyojs.com", "logo": "/html5games_winter2012/sponsors/enyojs.png" },
         { "name": "HeatSync Labs", "url": "http://heatsynclabs.org", "logo": "/html5games_winter2012/sponsors/heatsynclabs.png" }
       ],

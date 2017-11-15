@@ -7,14 +7,14 @@
     "description": "Prototyping embeddable and wearable designs has become simple thanks to Arduino. Seeed Studio's new Arduino-compatible Xadow platform brings the size down even further and allows you to mix and match components like Bluetooth Low Energy, motors, lights, accelerometers, GPS, NFC and more to make interactive clothes, props, weapons, costumes, etc. Bring your skills and excitement and join one of ten teams who will compete for over twelve hours to create the coolest device.",
     "sponsors": {
       "major": [
-        { "name": "Pebble", "url": "http://www.getpebble.com", "logo": "/arduino_wearables_winter2014/sponsors/pebble.png" },
+        { "name": "Pebble", "url": "https://en.wikipedia.org/wiki/Pebble_(watch)", "logo": "/arduino_wearables_winter2014/sponsors/pebble.png" },
         { "name": "Github", "url": "http://github.com", "logo": "/arduino_wearables_winter2014/sponsors/github.jpg" },
         { "name": "Seeed Studio", "url": "http://seeedstudio.com", "logo": "/arduino_wearables_winter2014/sponsors/seeedstudio.jpg" },
         { "name": "Cubic", "url": "http://cubic.asu.edu", "logo": "/arduino_wearables_winter2014/sponsors/cubic.jpg" },
         { "name": "Shapeways", "url": "http://www.shapeways.com", "logo": "/arduino_wearables_winter2014/sponsors/shapeways.png" }
       ],
       "standard": [
-        { "name": "Iced Dev", "url": "http://www.iceddev.com", "logo": "/arduino_wearables_winter2014/sponsors/iceddev.png" },
+        { "name": "Iced Dev", "url": "http://iceddev.com", "logo": "/arduino_wearables_winter2014/sponsors/iceddev.png" },
         { "name": "HeatSync Labs", "url": "http://heatsynclabs.org", "logo": "/arduino_wearables_winter2014/sponsors/heatsynclabs.png" }
       ]
     },

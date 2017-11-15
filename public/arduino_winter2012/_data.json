@@ -6,13 +6,13 @@
     "description": "Ten teams of Arduino newbies, veterans, and makers used the entirety of the HeatSync Labs hackerspace plus an on-site designer from sponsor Cynergy and our secret ingredient: The Shield Bot from Seeed Studio to create something special. The entire event was livestreamed, sportscaster-style via Allons-y and an all-volunteer video crew.",
     "sponsors": {
       "major": [
-        { "name": "Cynergy", "url": "http://cynergy.com", "logo": "/arduino_winter2012/sponsors/cynergy.png" },
+        { "name": "Cynergy", "url": "https://www.glassdoor.com/Reviews/Cynergy-Reviews-E399584.htm", "logo": "/arduino_winter2012/sponsors/cynergy.png" },
         { "name": "Microchip", "url": "http://microchip.com", "logo": "/arduino_winter2012/sponsors/microchip.png" },
         { "name": "Make", "url": "http://makezine.com", "logo": "/arduino_winter2012/sponsors/make.png" },
         { "name": "Seeed Studio", "url": "http://seeedstudio.com", "logo": "/arduino_winter2012/sponsors/seeedstudio.jpg" }
       ],
       "standard": [
-        { "name": "Iced Dev", "url": "http://www.iceddev.com", "logo": "/arduino_winter2012/sponsors/iceddev.png" },
+        { "name": "Iced Dev", "url": "http://iceddev.com", "logo": "/arduino_winter2012/sponsors/iceddev.png" },
         { "name": "Elenco", "url": "http://www.elenco.com", "logo": "/arduino_winter2012/sponsors/elenco.gif" },
         { "name": "Parallax", "url": "http://www.parallax.com", "logo": "/arduino_winter2012/sponsors/parallax.gif" },
         { "name": "Schmartboard", "url": "http://www.schmartboard.com", "logo": "/arduino_winter2012/sponsors/schmartboard.png" },

@@ -1,0 +1,27 @@
+mixin results(team)
+  .featured
+    .thumbnail
+      a(href="http://#{ gh_org }.github.com/team#{ team.number }"): img(src="#{ team.img }")
+      .caption
+        h3: a(href="http://#{ gh_org }.github.com/team#{ team.number }") Team #{ team.number }: #{ team.name }
+        p= team.description
+
+if winners || runners_up
+  h2 The Results!
+if winners
+  h2 Winners
+  .featured-row
+      for team in winners
+        +results(team)
+if runners_up
+  h2 Runners Up
+  //- stupid hack for wrapping rows around events
+  for team, idx in runners_up
+    case idx % 2
+      when 0: | <div class="featured-row">
+    +results(team)
+    case idx % 2
+      when 1: | </div>
+  //- if odd number of teams, close the last row
+  if runners_up.length % 2 == 1
+    | </div>

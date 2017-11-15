@@ -1,0 +1,32 @@
+mixin header(title, date)
+  header
+    h1= title
+    p.date= date
+
+mixin description(description, url, text)
+  .description
+    if description
+      p= description
+    if url
+      .signup: a(href="#{ url }")= text
+
+mixin archiveHeader(title, date, description)
+  .event-header
+    +header(title, date)
+    +description(description)
+
+mixin postEventHeader(title, date, description, url)
+  .event-header
+    +header(title, date)
+    +description(description, url, "Check out the Event Archive")
+
+mixin currentEventHeader(title, date, description, url)
+  .event-header
+    +header(title, date)
+    +description(description, "#tickets", "Sign up now")
+
+if title != null && date != null && description != null
+  +archiveHeader(title, date, description)
+else
+  - var data = public[current_event]._data.index
+  +postEventHeader(data.title, data.date, data.description, data.url)

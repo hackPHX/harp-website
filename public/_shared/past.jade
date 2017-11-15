@@ -1,0 +1,11 @@
+h2 Past Events
+.featured-row
+  for evt in past_events
+    - var evt_data = public[evt]._data.index;
+    .featured
+      .thumbnail
+        a(href="/#{ evt }/"): img(src="#{ evt_data.imgs }past.jpg", alt="#{ evt_data.title }")
+        .caption
+          h3: a(href="/#{ evt }/") #{ evt_data.title } - #{ evt_data.date }
+          p= evt_data.description
+          p Check out <a href="/#{evt}/">the event archive</a> to see pictures, video and the winners from this event.

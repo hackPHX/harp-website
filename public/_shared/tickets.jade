@@ -1,0 +1,14 @@
+.tickets
+  h2 Tickets
+  table.table.table-hover
+    thead
+      tr
+        th Team Role
+        th Description
+        th
+    tbody
+      for ticket in public[current_event]._data.index.tickets
+        tr
+          td= ticket.type
+          td= ticket.description
+          td: a.ticket-button(href="#{ticket.link}") Get Ticket

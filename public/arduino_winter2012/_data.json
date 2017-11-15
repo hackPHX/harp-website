@@ -1,0 +1,38 @@
+{
+  "index": {
+    "title": "Arduino",
+    "date": "Winter 2012",
+    "imgs": "/arduino_winter2012/img/",
+    "description": "Ten teams of Arduino newbies, veterans, and makers used the entirety of the HeatSync Labs hackerspace plus an on-site designer from sponsor Cynergy and our secret ingredient: The Shield Bot from Seeed Studio to create something special. The entire event was livestreamed, sportscaster-style via Allons-y and an all-volunteer video crew.",
+    "sponsors": {
+      "major": [
+        { "name": "Cynergy", "url": "http://cynergy.com", "logo": "/arduino_winter2012/sponsors/cynergy.png" },
+        { "name": "Microchip", "url": "http://microchip.com", "logo": "/arduino_winter2012/sponsors/microchip.png" },
+        { "name": "Make", "url": "http://makezine.com", "logo": "/arduino_winter2012/sponsors/make.png" },
+        { "name": "Seeed Studio", "url": "http://seeedstudio.com", "logo": "/arduino_winter2012/sponsors/seeedstudio.jpg" }
+      ],
+      "standard": [
+        { "name": "Iced Dev", "url": "http://www.iceddev.com", "logo": "/arduino_winter2012/sponsors/iceddev.png" },
+        { "name": "Elenco", "url": "http://www.elenco.com", "logo": "/arduino_winter2012/sponsors/elenco.gif" },
+        { "name": "Parallax", "url": "http://www.parallax.com", "logo": "/arduino_winter2012/sponsors/parallax.gif" },
+        { "name": "Schmartboard", "url": "http://www.schmartboard.com", "logo": "/arduino_winter2012/sponsors/schmartboard.png" },
+        { "name": "HeatSync Labs", "url": "http://heatsynclabs.org", "logo": "/arduino_winter2012/sponsors/heatsynclabs.png" }
+      ]
+    },
+    "gh_org": "hackphx-arduino",
+    "winners": [
+      { "number": 1, "name": "Clock - Judges' Choice", "img": "/arduino_winter2012/teams/team1.jpg", "description": "Prescott, Bruce, and Jon created a truly awesome, yet incredibly simple, working clock. The wheels turn one forward and one reverse, spinning the reflectance sensors around the wheel indicating the minutes. Upon the hour mark the bot drives forward and advances the linear slide to indicate hours. Extra credit for the free linear rails made out of laser cut scrap and cellophane tape!" },
+      { "number": 6, "name": "Simon - Jury's Choice", "img": "/arduino_winter2012/teams/team6.jpg", "description": "George, Kevin, and Rob created a beautifully designed, though not quite finished, 2 player heads up simon clone. The bot plays out a tune with lights and you use the laser cut puck, complete with braille so even the sight impaired could play, to mark the tones on the whiteboard. The Shieldbot then drives forward and uses the sensors to see if you've marked correctly. You want to get more right answers than your opponent so the bot drives towards their goal!" }
+    ],
+    "runners_up": [
+      { "number": 2, "name": "Rich Bot / Sh*t Bot", "img": "/arduino_winter2012/teams/team2.jpg", "description": "Luis, James and Chad (The Duece) came very close to a jury prize just losing out during the 3 way tie breaker. The Rich bot / Sh*t bot would sense your hand and completely randomly choose to deposit an amount of chicken poop or money. They hope to implement a risk dial, which when advanced would deposit more money per play, but also more poop per loss." },
+      { "number": 3, "name": "Pew Pew", "img": "/arduino_winter2012/teams/team3.jpg", "description": "Aly, Aaron, and Jose built Pew Pew, a modern music box. During the Friday night break they devised a 31 bit language of music. You draw out your tune on paper and insert into the machine. The wheels of the shield bot draw the paper in past the reflectance sensors and the music plays! They even attempted to sway the judge whose birthday it was with a rendition of Happy Birthday." },
+      { "number": 4, "name": "K-9", "img": "/arduino_winter2012/teams/team4.jpg", "description": "Jac, Stewart and Max came very close to a desktop x,y plotter system. 8 lights would align the bot which would drive to whichever location required pen output and a servo would drop the pen. Sadly they found incompatibilities with the Arduino servo library and the Shieldbot and were unable to overcome these. Credit given for the Dr. Who theme including the awesome papercraft K-9 done in lasercut plastic!" },
+      { "number": 5, "name": "BarMan", "img": "/arduino_winter2012/teams/team5.jpg", "description": "Jerry, Jake, and Bowtie went for a bar bot that could deliver a delicious beverage via a text message using the Seeed GSM shield. In the end their Sim card crapped out and they had to switch to a simpler line follower implementation to make the deadline." },
+      { "number": 7, "name": "Shot.Bot.", "img": "/arduino_winter2012/teams/team7.jpg", "description": "Moheeb, Ben and Rob also went for a beverage deliver system! Though more ambitious than Team 5, they didn't finish full functionality in time. What they did create was a really gorgeous device that many people in the event remarked they'd like to buy. The line following robot would take orders then drive the track to the dispenser where it would use a servo to actuate an amount of either of 3 beverages, before driving back to the patron." },
+      { "number": 8, "name": "HackPHX-Plotter", "img": "/arduino_winter2012/teams/team8.jpg", "description": "Brian, Matt, and Justin got very close to knocking off the Der Kritzler 2d drawing machine. In only 12 hours they created a vertical x,y table with makerslide and had the ingenious idea of bolting the tires of the Shield bot down such that when it was put in reverse, it lifted the pen off the drawing surface :) They even worked with the designer to come up with a PC side user interface!" },
+      { "number": 9, "name": "Eye", "img": "/arduino_winter2012/teams/team9.jpg", "description": "Tim, Karl, and Steven Came very close to winning the Jury prize for their very functional robot eye. The eye utilizes an ultrasonic sensor to trigger the wheels in a forward/reverse configuration turning the eye to follow those who wander by. Creepy." },
+      { "number": 10, "name": "Musicbox o' Death", "img": "/arduino_winter2012/teams/team10.jpg", "description": "Adam, Sheldon, Mike also had musical ambitions with their bot. Paper was to be driven across the reflectance sensors just like the other music box team. In the end they had to fall back on \"Z-Plane Ghettoblaster\" technology and the ghost of Jonathan Taylor Thomas (apparently dead?) to get something working by judging time." }
+    ]
+  }
+}

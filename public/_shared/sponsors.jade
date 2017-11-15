@@ -1,0 +1,13 @@
+mixin sponsors(sponsors)
+  for type, typeName in sponsors
+    ul(id="#{ typeName }-sponsors")
+      for sponsor in type
+        li: a(href="#{ sponsor.url }"): img(src="#{ sponsor.logo }", alt="#{ sponsor.name }")
+
+if current.source != '404'
+  #sponsors.sponsors
+    h2 Brought to you by
+    if sponsors
+      +sponsors(sponsors)
+    else
+      +sponsors(public[current_event]._data.index.sponsors)

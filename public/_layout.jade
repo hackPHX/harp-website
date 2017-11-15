@@ -1,0 +1,74 @@
+mixin headerBg(imgs)
+  style.
+    @media (max-width: 767px) {
+      .event-header:after {
+        background-image: url("#{ imgs }header-280.jpg");
+      }
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .event-header:after {
+        background-image: url("#{ imgs }header-768.jpg");
+      }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+      .event-header:after {
+        background-image: url("#{ imgs }header-992.jpg");
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .event-header:after {
+        background-image: url("#{ imgs }header-1200.jpg");
+      }
+    }
+
+mixin ogImage(imgs)
+  meta(property="og:image", content="http://hackphx.com#{imgs}header-1200.jpg")
+
+mixin ogTitle(title)
+  meta(property="og:title", content="#{title}")
+
+mixin ogDescription(desc)
+  meta(property="og:description", content="#{desc}")
+
+!!!5
+html(lang="en")
+  head
+    title #{ name }
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(charset="utf-8")
+    link(rel="stylesheet", href="http://fonts.googleapis.com/css?family=Candal:400")
+    link(rel="stylesheet", href="/css/hackphx.css")
+    link(rel="stylesheet", href="/fontawesome/less/font-awesome.css")
+
+    meta(property="fb:app_id", content="#{app_id}")
+    meta(property="og:site_name", content="#{name}")
+    if imgs
+      +ogImage(imgs)
+      +ogTitle(title)
+      +ogDescription(description)
+      +headerBg(imgs)
+    else
+      - current_info = public[current_event]._data.index
+      +ogImage(current_info.imgs)
+      +ogTitle(current_info.title)
+      +ogDescription(current_info.description)
+      +headerBg(current_info.imgs)
+
+    script.
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', '#{ custom_search_id }', 'hackphx.com');
+      ga('send', 'pageview');
+  body
+    !=partial("_shared/nav")
+    !=partial("_shared/header")
+    !=partial("_shared/content")
+    !=partial("_shared/footer")
+
+    script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js")
+    script(src="/js/collapse.min.js")

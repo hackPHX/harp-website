@@ -1,0 +1,56 @@
+@import (reference) "_bootstrap";
+
+*,
+*:before,
+*:after {
+  .box-sizing(border-box);
+}
+
+.info {
+  margin: 0;
+  padding: 0;
+}
+
+#errorLi,
+form li.error {
+  border-radius: 5px;
+}
+
+.confirm h2 {
+  .h3();
+  padding-top: 0;
+  color: @text-color;
+}
+
+.wufoo .info h2 {
+  .h3();
+  text-align: left;
+  margin-bottom: (@line-height-computed / 2);
+}
+
+form {
+  &.wufoo {
+    padding: 0;
+  }
+  ul {
+    .list-unstyled();
+  }
+  li {
+    label span {
+      color: red;
+    }
+    div {
+      .form-group();
+    }
+  }
+  .field {
+    .form-control();
+  }
+  textarea.field {
+    height: auto;
+  }
+  .submit {
+    .btn();
+    .btn-default();
+  }
+}

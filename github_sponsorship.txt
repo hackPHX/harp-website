@@ -1,0 +1,18 @@
+We’re hackPHX and we’ve been doing hackathons here in Phoenix for the past year, and we’re  now planning our next hackathon, Arduino Wearables!
+
+10 teams will make props, costumes, quantified self trackers, who knows! We’re targeting Dec 14th, but we’re flexible on that date still.
+
+We’ve always believed Github wasn’t just code and we’ve taken special note of your recent CAD enhancements and thought it might be a good time to talk!
+
+A requirement since beginning has been for teams to put all resources, code, design, etc on Github in order to be judged.
+
+Our current website has archives for the past two events with links to each team's repo, if you’d like to see all the amazing stuff our teams have done in the past. 
+
+We are working on a website redesign at http://hackphx.harp.io
+
+We have a hardware sponsor in Seed Studios who will be providing all the sensors and arduino gear but we still need a title sponsor to help us with food, prizes, and hopefully  resources for our video team to capture all the results as well as or better than last time when we live streamed for 12 hours straight! In short, we would LOVE for github to be that sponsor.
+
+
+Thanks!
+HackPHX
+Blaine and Jacob

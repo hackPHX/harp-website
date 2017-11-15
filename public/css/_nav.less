@@ -1,0 +1,41 @@
+// Workaround for display: block !important in mixins
+
+.responsive-visibility() {
+  display: inline !important;
+  tr& { display: table-row !important; }
+  th&,
+  td& { display: table-cell !important; }
+}
+
+nav {
+  min-height: none;
+  background-color: #fff;
+  border-bottom-color: #E8E8E8;
+}
+
+.navbar-toggle {
+  margin-right: 10px;
+  border-color: @navbar-default-toggle-border-color;
+  &:hover,
+  &:focus {
+    background-color: @navbar-default-toggle-hover-bg;
+    .icon-bar {
+      background-color: @navbar-default-toggle-hover-icon-bar-bg;
+    }
+  }
+  .icon-bar {
+    background-color: @navbar-default-toggle-icon-bar-bg;
+  }
+}
+
+.icon-facebook,
+.icon-twitter,
+.icon-github {
+  font-size: 1.2em;
+}
+
+.social-name {
+  .hidden-sm();
+  .hidden-md();
+  .hidden-lg();
+}

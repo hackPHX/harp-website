@@ -1,0 +1,10 @@
+{
+  "globals": {
+    "custom_search_id": "UA-34819723-2",
+    "name": "#hackPHX",
+    "app_id": "184084301785964",
+    "current_event": "arduino_wearables_winter2014",
+    "past_events": ["arduino_winter2012", "html5games_winter2012"]
+  },
+  "domains": ["hackphx.com", "www.hackphx.com", "hackphx.org", "www.hackphx.org"]
+}

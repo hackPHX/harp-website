@@ -1,0 +1,112 @@
+{
+  "index": {
+    "title": "Arduino Wearables",
+    "date": "Winter 2014",
+    "url": "/arduino_wearables_winter2014/",
+    "imgs": "/arduino_wearables_winter2014/img/",
+    "description": "Prototyping embeddable and wearable designs has become simple thanks to Arduino. Seeed Studio's new Arduino-compatible Xadow platform brings the size down even further and allows you to mix and match components like Bluetooth Low Energy, motors, lights, accelerometers, GPS, NFC and more to make interactive clothes, props, weapons, costumes, etc. Bring your skills and excitement and join one of ten teams who will compete for over twelve hours to create the coolest device.",
+    "sponsors": {
+      "major": [
+        { "name": "Pebble", "url": "http://www.getpebble.com", "logo": "/arduino_wearables_winter2014/sponsors/pebble.png" },
+        { "name": "Github", "url": "http://github.com", "logo": "/arduino_wearables_winter2014/sponsors/github.jpg" },
+        { "name": "Seeed Studio", "url": "http://seeedstudio.com", "logo": "/arduino_wearables_winter2014/sponsors/seeedstudio.jpg" },
+        { "name": "Cubic", "url": "http://cubic.asu.edu", "logo": "/arduino_wearables_winter2014/sponsors/cubic.jpg" },
+        { "name": "Shapeways", "url": "http://www.shapeways.com", "logo": "/arduino_wearables_winter2014/sponsors/shapeways.png" }
+      ],
+      "standard": [
+        { "name": "Iced Dev", "url": "http://www.iceddev.com", "logo": "/arduino_wearables_winter2014/sponsors/iceddev.png" },
+        { "name": "HeatSync Labs", "url": "http://heatsynclabs.org", "logo": "/arduino_wearables_winter2014/sponsors/heatsynclabs.png" }
+      ]
+    },
+    "tickets": [
+      { "type": "Hacker, Crafter, Artist", "description": "You sew, knit, crochet, 3D print, laser cut, work wood or metal.", "link": "https://tito.io/hackphx/arduino-wearables-winter-2014" },
+      { "type": "Programmer", "description": "Arduino, Mobile, Web. It's all good.", "link": "https://tito.io/hackphx/arduino-wearables-winter-2014" },
+      { "type": "Electronics/Arduino", "description": "You've got your resistor kit and leds ready.", "link": "https://tito.io/hackphx/arduino-wearables-winter-2014" }
+    ],
+    "gh_org": "hackphx-arduinowearables",
+    "winners": [
+      {
+        "number": 8,
+        "name": "Morse Code Earrings - Judges' Choice",
+        "img": "/arduino_wearables_winter2014/teams/team8.jpg",
+        "description": "This hack from Team 8 won Judges prize for being stylish, functional and complete. After having several designs fall through Team 8 pivoted half way though the competition to a pair of light up earrings. The Xadow modules are hidden in the necklace and the BLE module converts all ascii characters sent to Morse code to blink the laser cut edge lit earrings. You could (and should) take these out to 'da club' tonight.",
+        "gallery": "https://secure.flickr.com/search/?q=team08-aw14&m=tags&ss=0&ct=0&mt=all&w=60827818%40N07&adv=1",
+        "demo": "https://www.youtube.com/watch?v=03Ds7thEZnE"
+      },
+      {
+        "number": 4,
+        "name": "Over 9000 - Jury's Choice",
+        "img": "/arduino_wearables_winter2014/teams/team4.jpg",
+        "description": "Team 4 won Jury Prize for their Google Glass killer,   Over 9000. This sleek headmounted unit calculates your 'power level' from your 'powerful movements' and updates an OLED display inside and the LED strip outside. In addition the glove unit calculates distance from your enemy. The ridiculous nature probably won them the prize, but the judges remarked how oddly functional it all was. The OLED is ingeniously held at focal length with a mirror system and everything actually worked.",
+        "gallery": "https://secure.flickr.com/search/?q=team04-aw14&m=tags&ss=0&ct=0&mt=all&w=60827818%40N07&adv=1",
+        "demo": "https://www.youtube.com/watch?v=Eh0qGXIBjoM"
+      }
+    ],
+    "runners_up": [
+      {
+        "number": 1,
+        "name": "Glove Gesture Controller",
+        "img": "/arduino_wearables_winter2014/teams/team1.jpg",
+        "description": "Team01 hacked on alternate input device. Wire was routed around each finger and to the thumb. Touching any finger to the thumb generated an input and associated feedback animation on the led matrix. The team wanted to utilize BLE to connect to a javascript game they prototyped, but sadly ran out of time before completing the connection.",
+        "gallery": "https://secure.flickr.com/search/?q=team01-aw14&m=tags&ss=0&ct=0&mt=all&w=60827818%40N07&adv=1",
+        "demo": "https://www.youtube.com/watch?v=0nurHZnPMxM"
+      },
+      {
+        "number": 2,
+        "name": "UnWatch",
+        "img": "/arduino_wearables_winter2014/teams/team2.jpg",
+        "description": "We'll leave educating you on the evils of industrial capitalism's 'Machine Time' to Team 2's video demo, but in a nutshell their unWatch receives SMS and other messages wirelessly while also providing a fresh alternative to the urgency of time. An RTC module keeps accurate time while the Xadow BLE paired to their Mac connects the watch to the internet via Node Firmata and Skynet.",
+        "gallery": "https://secure.flickr.com/search/?q=team02-aw14&m=tags&ss=0&ct=0&mt=all&w=60827818%40N07&adv=1",
+        "demo": "https://www.youtube.com/watch?v=mRT1I9vgodQ"
+      },
+      {
+        "number": 3,
+        "name": "HeeetSeeeker",
+        "img": "/arduino_wearables_winter2014/teams/team3.jpg",
+        "description": "Team 3's design was by far the most beautiful of the competition. Laser cut and engraved leather studded with gears hid the electronics away leaving only a viewport for the blue OLED display. A GPS module calculates distance to your destination (HeatSync Labs, of course) and keeps accurate time on the OLED display. Bonus, the source code is just as pretty as the bracer.",
+        "gallery": "https://secure.flickr.com/search/?q=team03-aw14&m=tags&ss=0&ct=0&mt=all&w=60827818%40N07&adv=1",
+        "demo": "https://www.youtube.com/watch?v=BLeRDRJPPoA"
+      },
+      {
+        "number": 5,
+        "name": "Flatland 2D VR Visor",
+        "img": "/arduino_wearables_winter2014/teams/team5.jpg",
+        "description": "In Edwin Abbott's Flatland the third dimension is only rumored. Team 5 wanted to explore the separation of senses between 3 partners, one who could see, hear, and and feel. This ambitious project didn't finish in time but did produce this gorgeous visor, as well as another ingenious hack - turning their LED matrix into another Arduino for additional IO!",
+        "gallery": "https://secure.flickr.com/search/?q=team05-aw14&m=tags&ss=0&ct=0&mt=all&w=60827818%40N07&adv=1",
+        "demo": "https://www.youtube.com/watch?v=QKTqL_F4BDA"
+      },
+      {
+        "number": 6,
+        "name": "Slomo - Danger Zone Sensor",
+        "img": "/arduino_wearables_winter2014/teams/team6.jpg",
+        "description": "Team 6 created a location detecting wearable entitled Danger Zone. The goal was to make a piece of jewelry which could surface information without having to have your nose in your smartphone. The device utilized the GPS module and tinygps++ to create geofences. When within certain zones the bracelet/armband used Neopixels to catch the wearers attention. As usual further enhancements like BLE and maps integration were planned but scrapped due to time.",
+        "gallery": "https://secure.flickr.com/search/?q=team06-aw14&m=tags&ss=0&ct=0&mt=all&w=60827818%40N07&adv=1",
+        "demo": "https://www.youtube.com/watch?v=9LH4AlSmGao"
+      },
+      {
+        "number": 7,
+        "name": "Pirate Costume",
+        "img": "/arduino_wearables_winter2014/teams/team7.jpg",
+        "description": "Team 7 went for the popular vote with their pirate themed costume. An OLED module was mounted to an eye patch and controlled from and android phone to open, close, or wink. Even the shirt was hand sewn during the competition. Also there was a bird, and a skeleton, and Piezo module hacked to run a greeting card chip for pirate sounds... just watch the the video to properly appreciate this awesome submission.",
+        "gallery": "https://secure.flickr.com/search/?q=team07-aw14&m=tags&ss=0&ct=0&mt=all&w=60827818%40N07&adv=1",
+        "demo": "https://www.youtube.com/watch?v=wP8tLcXl-B4"
+      },
+      {
+        "number": 9,
+        "name": "DAUG",
+        "img": "/arduino_wearables_winter2014/teams/team9.jpg",
+        "description": "Team 9 set out to prove wearables aren't only for humans with Dog Activity Units... Germany. DAUG uses a 6DOF module to measure your dog's activity levels. The results are reported on Neopixels in the dog sweater as well as to an iPhone app over BLE. It was difficult for small dog to stay on camera during the video, but their submission was functional and a crowd favorite. Extra credit for attempting, and largely succeeding, to do crazy 6DOF math during a hackathon in order to cancel out gravity, and for the really cool dog sweater sewn from scratch during the event!",
+        "gallery": "https://secure.flickr.com/search/?q=team09-aw14&m=tags&ss=0&ct=0&mt=all&w=60827818%40N07&adv=1",
+        "demo": "https://www.youtube.com/watch?v=EZUrpH8-uNw"
+      },
+      {
+        "number": 10,
+        "name": "Glove-mounted voltmeter",
+        "img": "/arduino_wearables_winter2014/teams/team10.jpg",
+        "description": "Team 10 set out to do no less than extend human senses. Conductive thread was sewn to the thumb and pointer finger to measure voltage and a thermistor at the pinky allowed them to measure surface temperature all with their fingertips. The accelerometer module was used detect and arm motion to switch between modes. Without an OLED module they hacked in an LCD display to give the voltage and temperature readout. The design was kept modular with the hopes that many other sensors could be integrated using the digital and analog pins they broke out to the fingertips. Do want.",
+        "gallery": "https://secure.flickr.com/search/?q=team10-aw14&m=tags&ss=0&ct=0&mt=all&w=60827818%40N07&adv=1",
+        "demo": "https://www.youtube.com/watch?v=YJFSA-wAkTo"
+      }
+    ]
+  }
+}

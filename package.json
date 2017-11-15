@@ -4,12 +4,16 @@
   "description": "HackPHX website",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "gulp"
+    "start": "harp server",
+    "build": "harp compile --output ./dist"
   },
   "author": "Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com/)",
   "license": "MIT",
   "dependencies": {
     "gulp": "~3.2.4",
     "gulp-imagemin": "~0.1.4"
+  },
+  "devDependencies": {
+    "harp": "^0.13.0"
   }
 }
